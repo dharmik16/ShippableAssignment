@@ -8,9 +8,9 @@ Input - A link to any public GitHub Repository taken from TextField
 
 Output - A Table displaying - 
   Total number of open issues
-  Number of open issues that were opened in the last 24 hours
-  Number of open issues that were opened more than 24 hours ago but less than 7 days ago
-  Number of open issues that were opened more than 7 days ago 
+  * Number of open issues that were opened in the last 24 hours
+  * Number of open issues that were opened more than 24 hours ago but less than 7 days ago
+  * Number of open issues that were opened more than 7 days ago 
 
 #Implementation Details
 Given the link to github repository the API creates a HTTP connection to the link and gets the content of html document.
