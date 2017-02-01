@@ -1,5 +1,8 @@
 # GetOpenIssueStats
 
+#Overview
+GetOpenIssueStats is a Jave based API which gives information regarding the open issues for any public github repository.
+
 Input - A link to any public GitHub Repository taken from TextField
 
 Output - A Table displaying - 
