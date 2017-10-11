@@ -7,7 +7,7 @@ import javax.swing.JFrame;
  * Class containing the main function
  * Creates an object to GetResult class
  */ 
-public class OpenIssueTest {
+public class OpenIssueUI {
 	
 	public static void main(String args[]) throws ParseException{
 		GetResult g = new GetResult();
