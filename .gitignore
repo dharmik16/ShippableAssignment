@@ -1,2 +1,22 @@
+# Apple 
+*.DS_Store
+.AppleDouble
+.LSOverride
+
+# Intellij
 .idea/
-GetOpenIssueStats.iml
+*.iml
+
+
+# Gradle
+.gradle/
+
+# Java
+build/
+out/
+
+system.properties
+
+# log files
+*.log
+**/*.log
