@@ -30,7 +30,10 @@ public class GetResult extends JFrame implements ActionListener
         if (e.getSource() == getLink) {
             data = txtdata.getText(); //perform your operation
             GetOpenIssue openIssue = new GetOpenIssue();
-    		openIssue.crawl(data);
+    		try {openIssue.crawl(data);} catch (Exception ex) {
+    		    ex.printStackTrace();
+    		    throw ex;
+            }
     		try {
 				openIssue.getDiff();
 			} catch (ParseException e1) {
