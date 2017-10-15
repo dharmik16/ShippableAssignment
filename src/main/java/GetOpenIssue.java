@@ -39,7 +39,7 @@ public class GetOpenIssue extends JFrame {
 	            Document htmlDocument = connection.get();
 	            this.htmlDocument = htmlDocument;
 	            if(connection.response().statusCode() == 200){
-	            //    System.out.println("\n**Visiting** Received web page at " + url);
+	            	System.out.println("\n**Visiting** Received web page at " + url);
 	            }
 	            if(!connection.response().contentType().contains("text/html"))
 	            {
@@ -67,6 +67,7 @@ public class GetOpenIssue extends JFrame {
 	            }
 			}catch(IOException ioe)
 	        {
+	        	ioe.printStackTrace();
 				return;
 	        }
 		}while(flag);
